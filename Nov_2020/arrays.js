@@ -76,3 +76,5 @@ console.log([1,2,3,4,5].myEach()); // => [1,2,3,4,5]
 
 Array.prototype.myMap = function() {
 }
+
+
