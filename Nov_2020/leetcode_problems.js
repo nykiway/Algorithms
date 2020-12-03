@@ -61,4 +61,28 @@ function runLengthEncoding(str) {
 
 console.log(runLengthEncoding("AAAAAAAAAAAAABBCCCCDD")); // 9A4A2B3C4D
 
+// SELECTION SORT
+
+function selectionSort(array) {
+	let startIdx = 0;
+	while (startIdx < array.length -1) {
+		let smallestIdx = startIdx;
+		for (let i = startIdx + 1; i < array.length; i++) {
+			if (array[smallestIdx] > array[i]) smallestIdx = i;
+		}
+		swap(startIdx, smallestIdx, array);
+		startIdx ++;
+	}
+	
+	return array;
+}
+
+function swap(i, j, array) {
+	const temp = array[j];
+	array[j] = array[i];
+	array[i] = temp;
+}
+
+console.log(selectionSort([1,5,2,7,9])) // ==> [1,2,5,7,9]
+
 
