@@ -1,8 +1,3 @@
-
-// ---------------------------------------------
-
-// Enumerables: My Each
-
 Array.prototype.myEach = function() {
   let eached = [];
 
@@ -14,12 +9,3 @@ Array.prototype.myEach = function() {
 }
 
 console.log([1,2,3,4,5].myEach()); // => [1,2,3,4,5]
-
-// ---------------------------------------------
-
-// Enumerables: My Map
-
-Array.prototype.myMap = function() {
-}
-
-
