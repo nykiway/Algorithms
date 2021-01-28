@@ -15,4 +15,5 @@ function moveElementToEnd(array, toMove) {
 	return array;
 }
 
-console.log(moveElementToEnd([2,1,2,2,2,3,4,2], 2))
+console.log(moveElementToEnd([2,1,2,2,2,3,4,2], 2));
+console.log(moveElementToEnd([1,2,3,3,3,3,1,1,1], 3));
