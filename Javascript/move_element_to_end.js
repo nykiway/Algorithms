@@ -17,3 +17,4 @@ function moveElementToEnd(array, toMove) {
 
 console.log(moveElementToEnd([2,1,2,2,2,3,4,2], 2));
 console.log(moveElementToEnd([1,2,3,3,3,3,1,1,1], 3));
+console.log(moveElementToEnd([10, 10, 1, 1, 2, 3, 4, 8], 10));
