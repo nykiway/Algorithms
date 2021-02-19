@@ -16,9 +16,9 @@ function smallestDifference(arrayOne, arrayTwo) {
 			arr[0] = num1;
 			arr[1] = num2;
 		}
-		if (arrayOne[i] < arrayTwo[j]) {
+		if (num1 < num2) {
 			i++
-		} else if (arrayOne[i] > arrayTwo[j]) {
+		} else if (num1 > num2) {
 			j++
 		} else { 
 			return arr
